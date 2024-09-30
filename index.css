@@ -1,0 +1,43 @@
+@font-face {
+    font-family: facile sans ;
+    src: url(../Asset/Facile\ Sans.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./asset/pexels-photo-304664.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-tag{
+    font-weight: 200;
+    font-family: sans-serif;
+    color: yellowgreen;
+}
+
+
+
+
+
+
+.box{
+    width: 440px;
+    height: 440px;
+    /* background-color: yellowgreen; */
+    margin: auto;
+}
+.box h1{
+    width: 400px;
+    height: 400px;
+    background-image: conic-gradient( from -30deg at 30% 45%,red 0deg, red 90deg, blue 90deg, blue 180deg, green 180deg, green 270deg, yellow 270deg, yellow 360deg) ;
+    font-size: 20em;
+    font-family: facile sans;
+    padding-left: 32px;
+    align-items: center;
+    margin-top: 4rem;
+    background-clip: text; -webkit-background-clip: text;
+    color: transparent;
+}
